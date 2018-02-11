@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>362a40e1-4349-4d65-b993-16488f60b63d.SCHEMA:db1.timesheets</OriginalElement>
+  <nodes>
+    <node x="213.50000000000003" y="0.0">362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.employees</node>
+    <node x="196.00000000000003" y="391.0">362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.timesheet_entries</node>
+    <node x="0.0" y="245.5">362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.days</node>
+    <node x="219.00000000000003" y="233.0">362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.timesheets</node>
+    <node x="435.0" y="233.0">362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.activities</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.timesheets" target="362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.employees">
+      <point x="0.0" y="-54.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.timesheet_entries" target="362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.activities">
+      <point x="80.66666666666669" y="-79.0" />
+      <point x="397.66666666666674" y="366.0" />
+      <point x="572.5" y="366.0" />
+      <point x="0.0" y="54.0" />
+    </edge>
+    <edge source="362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.timesheet_entries" target="362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.timesheets">
+      <point x="0.0" y="-79.0" />
+      <point x="0.0" y="54.0" />
+    </edge>
+    <edge source="362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.timesheet_entries" target="362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.days">
+      <point x="-80.66666666666669" y="-79.0" />
+      <point x="236.33333333333334" y="366.0" />
+      <point x="99.5" y="366.0" />
+      <point x="0.0" y="41.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7726027397260274" x="872.7304964539006" y="288.0904255319149" />
+  <SelectedNodes>
+    <node>362a40e1-4349-4d65-b993-16488f60b63d.TABLE:db1.timesheets.activities</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
